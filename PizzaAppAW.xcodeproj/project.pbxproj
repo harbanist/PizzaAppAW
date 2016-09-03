@@ -21,6 +21,12 @@
 		EA13B3001D76AEF800DA8696 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13B2FF1D76AEF800DA8696 /* ExtensionDelegate.swift */; };
 		EA13B3021D76AEF800DA8696 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13B3011D76AEF800DA8696 /* NotificationController.swift */; };
 		EA13B3041D76AEF800DA8696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA13B3031D76AEF800DA8696 /* Assets.xcassets */; };
+		EA13B3171D76BC3800DA8696 /* ICTamanoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13B3161D76BC3800DA8696 /* ICTamanoClass.swift */; };
+		EA13B3191D77952B00DA8696 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13B3181D77952B00DA8696 /* Pizza.swift */; };
+		EA4793941D78DCBD0006A5EB /* ICMasaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4793931D78DCBD0006A5EB /* ICMasaClass.swift */; };
+		EA4793961D7945560006A5EB /* ICQuesoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4793951D7945560006A5EB /* ICQuesoClass.swift */; };
+		EA47939A1D7947A30006A5EB /* ICConfirmacionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4793991D7947A30006A5EB /* ICConfirmacionClass.swift */; };
+		EA47939C1D794A710006A5EB /* ICIngredientesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47939B1D794A710006A5EB /* ICIngredientesClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +100,12 @@
 		EA13B3011D76AEF800DA8696 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		EA13B3031D76AEF800DA8696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA13B3051D76AEF800DA8696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA13B3161D76BC3800DA8696 /* ICTamanoClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICTamanoClass.swift; sourceTree = "<group>"; };
+		EA13B3181D77952B00DA8696 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		EA4793931D78DCBD0006A5EB /* ICMasaClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICMasaClass.swift; sourceTree = "<group>"; };
+		EA4793951D7945560006A5EB /* ICQuesoClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICQuesoClass.swift; sourceTree = "<group>"; };
+		EA4793991D7947A30006A5EB /* ICConfirmacionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICConfirmacionClass.swift; sourceTree = "<group>"; };
+		EA47939B1D794A710006A5EB /* ICIngredientesClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICIngredientesClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +196,12 @@
 				EA13B3031D76AEF800DA8696 /* Assets.xcassets */,
 				EA13B3051D76AEF800DA8696 /* Info.plist */,
 				EA13B2FB1D76AEF800DA8696 /* Supporting Files */,
+				EA13B3161D76BC3800DA8696 /* ICTamanoClass.swift */,
+				EA4793931D78DCBD0006A5EB /* ICMasaClass.swift */,
+				EA4793951D7945560006A5EB /* ICQuesoClass.swift */,
+				EA47939B1D794A710006A5EB /* ICIngredientesClass.swift */,
+				EA4793991D7947A30006A5EB /* ICConfirmacionClass.swift */,
+				EA13B3181D77952B00DA8696 /* Pizza.swift */,
 			);
 			path = "PizzaAppAW WatchKit Extension";
 			sourceTree = "<group>";
@@ -375,8 +393,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA47939C1D794A710006A5EB /* ICIngredientesClass.swift in Sources */,
+				EA13B3171D76BC3800DA8696 /* ICTamanoClass.swift in Sources */,
 				EA13B3021D76AEF800DA8696 /* NotificationController.swift in Sources */,
+				EA4793941D78DCBD0006A5EB /* ICMasaClass.swift in Sources */,
 				EA13B3001D76AEF800DA8696 /* ExtensionDelegate.swift in Sources */,
+				EA4793961D7945560006A5EB /* ICQuesoClass.swift in Sources */,
+				EA13B3191D77952B00DA8696 /* Pizza.swift in Sources */,
+				EA47939A1D7947A30006A5EB /* ICConfirmacionClass.swift in Sources */,
 				EA13B2FE1D76AEF800DA8696 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -639,6 +663,7 @@
 				EA13B30A1D76AEF800DA8696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA13B30C1D76AEF800DA8696 /* Build configuration list for PBXNativeTarget "PizzaAppAW WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +672,7 @@
 				EA13B30E1D76AEF800DA8696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA13B3101D76AEF800DA8696 /* Build configuration list for PBXNativeTarget "PizzaAppAW" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +681,7 @@
 				EA13B3121D76AEF800DA8696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA13B3131D76AEF800DA8696 /* Build configuration list for PBXNativeTarget "PizzaAppAWTests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +690,7 @@
 				EA13B3151D76AEF800DA8696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
